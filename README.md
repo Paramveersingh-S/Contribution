@@ -37,4 +37,17 @@ Official recipes, examples, and agentic workflows for Gemma models.
 | **#274** | **FunctionGemma Dependency Conflicts:** Pinned `numpy` and `requests` bounds in the Colab fine-tuning notebooks to resolve pipeline failures with `google-colab 1.0.0`. | [PR Link / Branch `fix/functiongemma-notebook-deps`](https://github.com/Paramveersingh-S/cookbook) |
 
 ---
+
+## 🔬 CERN Open Source Ecosystem (Upcoming Contributions)
+As part of the GSoC 2026 application (CERN-HSF umbrella), I will be contributing to the CERN and scikit-hep ecosystems:
+
+| Project | Target Issue | Description |
+| :--- | :--- | :--- |
+| **CERN/TIGRE** | #744 | Fix NumPy 2.x compatibility breaks (`np.bool` deprecations, etc.) in projection geometries. |
+| **CERN/TIGRE** | #681 | Validate 2D inputs for `im_3d_denoise` to prevent tuple index out-of-range crashes. |
+| **CERN/TIGRE** | #678 | Fix geometry utility integer coercion by ensuring attributes like `nDetector` stay as ints. |
+| **CERN/CAiMIRA** | #13 & #8 | Resolve OAuth social sign-in timeouts and stabilize flaky test suites. |
+| **scikit-hep** | TBD | Broaden compatibility and resolve bugs for `awkward`, `uproot5`, `vector`, and `pyhf`. |
+
+---
 *Note: The code for these contributions lives in their respective upstream repositories and my forks. This repository acts as an aggregator of those contributions.*
