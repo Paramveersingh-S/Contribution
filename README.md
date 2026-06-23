@@ -53,4 +53,14 @@ As part of the GSoC 2026 application (CERN-HSF umbrella), I have contributed to 
 | **HSF/hsf-training** | #43 | Updated `scikit-hep-webpage` tutorials to warn against the deprecated `root_numpy` package. | [PR Link / Branch `update-root-numpy-notice`](https://github.com/Paramveersingh-S/hsf-training-scikit-hep-webpage) |
 
 ---
+
+## 🤗 Hugging Face Open Source Ecosystem
+Contributions to the state-of-the-art Hugging Face ecosystem:
+
+| Project | Target Issue | Description | Pull Request / Branch |
+| :--- | :--- | :--- | :--- |
+| **huggingface/datasets** | #5354 | Fixed Mypy invariance typing errors by updating `List` to `Sequence` in core dataset loading APIs. | [PR Link / Branch `main`](https://github.com/Paramveersingh-S/datasets) |
+| **huggingface/diffusers** | #13903 | Built from scratch the custom modular blocks required to add `img2img` generation capabilities to the `Anima` modular pipeline. | [PR Link / Branch `main`](https://github.com/Paramveersingh-S/diffusers) |
+
+---
 *Note: The code for these contributions lives in their respective upstream repositories and my forks. This repository acts as an aggregator of those contributions.*
