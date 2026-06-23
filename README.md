@@ -38,16 +38,19 @@ Official recipes, examples, and agentic workflows for Gemma models.
 
 ---
 
-## 🔬 CERN Open Source Ecosystem (Upcoming Contributions)
-As part of the GSoC 2026 application (CERN-HSF umbrella), I will be contributing to the CERN and scikit-hep ecosystems:
+## 🔬 CERN Open Source Ecosystem
+As part of the GSoC 2026 application (CERN-HSF umbrella), I have contributed to the CERN and scikit-hep ecosystems:
 
-| Project | Target Issue | Description |
-| :--- | :--- | :--- |
-| **CERN/TIGRE** | #744 | Fix NumPy 2.x compatibility breaks (`np.bool` deprecations, etc.) in projection geometries. |
-| **CERN/TIGRE** | #681 | Validate 2D inputs for `im_3d_denoise` to prevent tuple index out-of-range crashes. |
-| **CERN/TIGRE** | #678 | Fix geometry utility integer coercion by ensuring attributes like `nDetector` stay as ints. |
-| **CERN/CAiMIRA** | #13 & #8 | Resolve OAuth social sign-in timeouts and stabilize flaky test suites. |
-| **scikit-hep** | TBD | Broaden compatibility and resolve bugs for `awkward`, `uproot5`, `vector`, and `pyhf`. |
+| Project | Target Issue | Description | Pull Request / Branch |
+| :--- | :--- | :--- | :--- |
+| **CERN/TIGRE** | #744 | Fixed NumPy 2.x compatibility breaks in projection geometries. | [PR Link / Branch `fix-geometry-numpy2-single-angle`](https://github.com/Paramveersingh-S/TIGRE) |
+| **CERN/TIGRE** | #681 | Validated 2D inputs for `im_3d_denoise` to prevent tuple index out-of-range crashes. | [PR Link / Branch `fix-im_3d_denoise-2d`](https://github.com/Paramveersingh-S/TIGRE) |
+| **CERN/CAiMIRA** | #8 | Stabilized flaky test suites by using seeded `np.random.RandomState`. | [PR Link / Branch `fix-flaky-quantities-test`](https://github.com/Paramveersingh-S/CAiMIRA) |
+| **scikit-hep/awkward** | #13 | Added missing type hint for axis parameter in `ak.flatten` to resolve static typing errors. | [PR Link / Branch `fix-ak-flatten-typing`](https://github.com/Paramveersingh-S/awkward) |
+| **scikit-hep/uproot5** | #8 | Added missing model mappings for `ROOT.TString` inside `TTree` in `uproot/models/TString.py`. | [PR Link / Branch `fix-tstring-mapping`](https://github.com/Paramveersingh-S/uproot5) |
+| **scikit-hep/vector** | #654 | Fixed Pyright operator typing (`__add__`, `__sub__`, etc.) inside `VectorProtocol`. | [PR Link / Branch `fix-vectorprotocol-dunder`](https://github.com/Paramveersingh-S/vector) |
+| **scikit-hep/pyhf** | #2718 | Updated image comparison tolerances to resolve matplotlib 3.11 breaking changes in tests. | [PR Link / Branch `fix-mpl-image-tolerance`](https://github.com/Paramveersingh-S/pyhf) |
+| **HSF/hsf-training** | #43 | Updated `scikit-hep-webpage` tutorials to warn against the deprecated `root_numpy` package. | [PR Link / Branch `update-root-numpy-notice`](https://github.com/Paramveersingh-S/hsf-training-scikit-hep-webpage) |
 
 ---
 *Note: The code for these contributions lives in their respective upstream repositories and my forks. This repository acts as an aggregator of those contributions.*
