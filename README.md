@@ -6,6 +6,18 @@ Below is a summary of the issues I tackled, the architectural challenges resolve
 
 ---
 
+## 🏆 Merges Milestones
+Below is a list of my successfully merged contributions and the corresponding repository conveners/maintainers.
+
+| Project | Pull Request | Description | Convener / Maintainer |
+| :--- | :--- | :--- | :--- |
+| **CERN/TIGRE** | [#750](https://github.com/CERN/TIGRE/pull/750) | `fix(python/geometry): Prevent cast_to_single from casting integers to float32 (#678)` | @AnderBiguri |
+| **hsf-training** | [#95](https://github.com/hsf-training/hsf-training-scikit-hep-webpage/pull/95) | `docs: Mention that root_numpy and root_pandas are deprecated` | @eduardo-rodrigues |
+| **CERN/TIGRE** | [#748](https://github.com/CERN/TIGRE/pull/748) | `fix-denoise-2d-guard` | @AnderBiguri |
+| **CERN/TIGRE** | [#749](https://github.com/CERN/TIGRE/pull/749) | `Fix geometry numpy2 single angle` | @AnderBiguri |
+
+---
+
 ## 🧬 Google DeepMind `torax`
 Torax is a differentiable plasma transport simulator in JAX.
 
