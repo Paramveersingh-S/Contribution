@@ -64,6 +64,10 @@ As part of the GSoC 2026 application (CERN-HSF umbrella), I have contributed to 
 | **scikit-hep/vector** | #654 | Fixed Pyright operator typing (`__add__`, `__sub__`, etc.) inside `VectorProtocol`. | [PR Link / Branch `fix-vectorprotocol-dunder`](https://github.com/Paramveersingh-S/vector) |
 | **scikit-hep/pyhf** | #2718 | Updated image comparison tolerances to resolve matplotlib 3.11 breaking changes in tests. | [PR Link / Branch `fix-mpl-image-tolerance`](https://github.com/Paramveersingh-S/pyhf) |
 | **HSF/hsf-training** | #43 | Updated `scikit-hep-webpage` tutorials to warn against the deprecated `root_numpy` package. | [PR Link / Branch `update-root-numpy-notice`](https://github.com/Paramveersingh-S/hsf-training-scikit-hep-webpage) |
+| **CERN/OpenPHIGS** | #8 | Fixed compiler enum conversion and missing prototype warnings in legacy C code. | [PR Link / Branch `fix/issue-8`](https://github.com/Paramveersingh-S/OpenPHIGS) |
+| **CERN/OpenPHIGS** | #7 | Implemented GLU tessellation for proper concave area filling across wsgl functions. | [PR Link / Branch `fix/issue-7`](https://github.com/Paramveersingh-S/OpenPHIGS) |
+| **CERN/OpenPHIGS** | #5 | Added Doxygen build support in CMakeLists for automatic man page generation. | [PR Link / Branch `feat/issue-5-doxygen`](https://github.com/Paramveersingh-S/OpenPHIGS) |
+| **scikit-hep/uproot5** | #1627 | Replaced deprecated TPython::Eval with C++ pointers for PyROOT buffer reallocation. | [PR Link / Branch `fix/issue-1627-from-pyroot`](https://github.com/Paramveersingh-S/uproot5) |
 
 ---
 
