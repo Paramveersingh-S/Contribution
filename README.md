@@ -55,6 +55,7 @@ As part of the GSoC 2026 application (CERN-HSF umbrella), I have contributed to 
 
 | Project | Target Issue | Description | Pull Request / Branch |
 | :--- | :--- | :--- | :--- |
+| **CERN/TIGRE** | #334 | Resolved severe stripe artifacts in parallel beam projections by fixing intersection bypass bounds. | [PR Link / Branch `fix-parallel-projection-stripes`](https://github.com/Paramveersingh-S/TIGRE) |
 | **CERN/TIGRE** | #744 | Fixed NumPy 2.x compatibility breaks in projection geometries. | [PR Link / Branch `fix-geometry-numpy2-single-angle`](https://github.com/Paramveersingh-S/TIGRE) |
 | **CERN/TIGRE** | #681 | Validated 2D inputs for `im_3d_denoise` to prevent tuple index out-of-range crashes. | [PR Link / Branch `fix-im_3d_denoise-2d`](https://github.com/Paramveersingh-S/TIGRE) |
 | **CERN/CAiMIRA** | #8 | Stabilized flaky test suites by using seeded `np.random.RandomState`. | [PR Link / Branch `fix-flaky-quantities-test`](https://github.com/Paramveersingh-S/CAiMIRA) |
